@@ -17,6 +17,15 @@
 		8F31AB632BA2150500A49D30 /* testingEntityRelationshipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F31AB622BA2150500A49D30 /* testingEntityRelationshipsTests.swift */; };
 		8F31AB6D2BA2150500A49D30 /* testingEntityRelationshipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F31AB6C2BA2150500A49D30 /* testingEntityRelationshipsUITests.swift */; };
 		8F31AB6F2BA2150500A49D30 /* testingEntityRelationshipsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F31AB6E2BA2150500A49D30 /* testingEntityRelationshipsUITestsLaunchTests.swift */; };
+		8FB303402BAB5CDE001937E9 /* WineOfMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3033F2BAB5CDE001937E9 /* WineOfMonthViewController.swift */; };
+		8FE9BDE92BA22504002A51FD /* Wine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDE32BA22504002A51FD /* Wine+CoreDataClass.swift */; };
+		8FE9BDEA2BA22504002A51FD /* Wine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDE42BA22504002A51FD /* Wine+CoreDataProperties.swift */; };
+		8FE9BDEB2BA22504002A51FD /* Month+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDE52BA22504002A51FD /* Month+CoreDataClass.swift */; };
+		8FE9BDEC2BA22504002A51FD /* Month+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDE62BA22504002A51FD /* Month+CoreDataProperties.swift */; };
+		8FE9BDED2BA22504002A51FD /* Locker+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDE72BA22504002A51FD /* Locker+CoreDataClass.swift */; };
+		8FE9BDEE2BA22504002A51FD /* Locker+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDE82BA22504002A51FD /* Locker+CoreDataProperties.swift */; };
+		8FE9BDF02BA6374D002A51FD /* MonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDEF2BA6374D002A51FD /* MonthViewController.swift */; };
+		8FE9BDF22BA8B4F3002A51FD /* LockerWinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9BDF12BA8B4F3002A51FD /* LockerWinesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		8F31AB682BA2150500A49D30 /* testingEntityRelationshipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingEntityRelationshipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F31AB6C2BA2150500A49D30 /* testingEntityRelationshipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingEntityRelationshipsUITests.swift; sourceTree = "<group>"; };
 		8F31AB6E2BA2150500A49D30 /* testingEntityRelationshipsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingEntityRelationshipsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FB3033F2BAB5CDE001937E9 /* WineOfMonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineOfMonthViewController.swift; sourceTree = "<group>"; };
+		8FE9BDE32BA22504002A51FD /* Wine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FE9BDE42BA22504002A51FD /* Wine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FE9BDE52BA22504002A51FD /* Month+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FE9BDE62BA22504002A51FD /* Month+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FE9BDE72BA22504002A51FD /* Locker+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locker+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FE9BDE82BA22504002A51FD /* Locker+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locker+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FE9BDEF2BA6374D002A51FD /* MonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthViewController.swift; sourceTree = "<group>"; };
+		8FE9BDF12BA8B4F3002A51FD /* LockerWinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerWinesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,12 @@
 		8F31AB3C2BA214EE00A49D30 = {
 			isa = PBXGroup;
 			children = (
+				8FE9BDE32BA22504002A51FD /* Wine+CoreDataClass.swift */,
+				8FE9BDE42BA22504002A51FD /* Wine+CoreDataProperties.swift */,
+				8FE9BDE52BA22504002A51FD /* Month+CoreDataClass.swift */,
+				8FE9BDE62BA22504002A51FD /* Month+CoreDataProperties.swift */,
+				8FE9BDE72BA22504002A51FD /* Locker+CoreDataClass.swift */,
+				8FE9BDE82BA22504002A51FD /* Locker+CoreDataProperties.swift */,
 				8F31AB472BA214EE00A49D30 /* testingEntityRelationships */,
 				8F31AB612BA2150500A49D30 /* testingEntityRelationshipsTests */,
 				8F31AB6B2BA2150500A49D30 /* testingEntityRelationshipsUITests */,
@@ -104,6 +128,9 @@
 				8F31AB482BA214EE00A49D30 /* AppDelegate.swift */,
 				8F31AB4A2BA214EE00A49D30 /* SceneDelegate.swift */,
 				8F31AB4C2BA214EE00A49D30 /* ViewController.swift */,
+				8FE9BDF12BA8B4F3002A51FD /* LockerWinesViewController.swift */,
+				8FE9BDEF2BA6374D002A51FD /* MonthViewController.swift */,
+				8FB3033F2BAB5CDE001937E9 /* WineOfMonthViewController.swift */,
 				8F31AB4E2BA214EE00A49D30 /* Main.storyboard */,
 				8F31AB542BA2150400A49D30 /* Assets.xcassets */,
 				8F31AB562BA2150400A49D30 /* LaunchScreen.storyboard */,
@@ -264,7 +291,16 @@
 				8F31AB4D2BA214EE00A49D30 /* ViewController.swift in Sources */,
 				8F31AB492BA214EE00A49D30 /* AppDelegate.swift in Sources */,
 				8F31AB4B2BA214EE00A49D30 /* SceneDelegate.swift in Sources */,
+				8FE9BDE92BA22504002A51FD /* Wine+CoreDataClass.swift in Sources */,
+				8FE9BDEA2BA22504002A51FD /* Wine+CoreDataProperties.swift in Sources */,
+				8FE9BDEB2BA22504002A51FD /* Month+CoreDataClass.swift in Sources */,
+				8FE9BDEC2BA22504002A51FD /* Month+CoreDataProperties.swift in Sources */,
+				8FE9BDF22BA8B4F3002A51FD /* LockerWinesViewController.swift in Sources */,
+				8FE9BDED2BA22504002A51FD /* Locker+CoreDataClass.swift in Sources */,
+				8FE9BDF02BA6374D002A51FD /* MonthViewController.swift in Sources */,
+				8FE9BDEE2BA22504002A51FD /* Locker+CoreDataProperties.swift in Sources */,
 				8F31AB532BA214EE00A49D30 /* testingEntityRelationships.xcdatamodeld in Sources */,
+				8FB303402BAB5CDE001937E9 /* WineOfMonthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
